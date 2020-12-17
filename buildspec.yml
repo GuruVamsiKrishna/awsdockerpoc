@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - ls
+      - docker pull nginx
       - echo Logging in to Docker Hub...
       - echo $IMAGE_REPO_NAME
       - docker login -u guruvamsi -p Mydhoni@07
