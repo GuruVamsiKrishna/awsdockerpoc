@@ -3,6 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - ls
       - echo Logging in to Docker Hub...
       - echo $IMAGE_REPO_NAME
       - docker login -u guruvamsi -p Mydhoni@07
