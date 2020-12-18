@@ -3,7 +3,7 @@ os: linux
 
 hooks:
    BeforeInstall:
-    - location: scripts/install.sh
+    - location: scripts/start.sh
       runas: root
    Install:
     - location: scripts/start.sh
